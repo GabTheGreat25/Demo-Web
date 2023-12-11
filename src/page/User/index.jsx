@@ -52,7 +52,7 @@ export default function () {
               key={image.public_id}
               src={image.url}
               alt={image.originalname}
-              className="rounded-full h-10 w-10 object-cover"
+              className="object-cover w-10 h-10 rounded-full"
             />
           ))}
         </div>
@@ -61,7 +61,7 @@ export default function () {
     {
       name: "Actions",
       cell: (row) => (
-        <div className="mx-4 flex items-center space-x-4">
+        <div className="flex items-center mx-4 space-x-4">
           <button
             className="text-red-500 hover:underline"
             onClick={() => handleDelete(row._id)}
@@ -80,7 +80,7 @@ export default function () {
           <RingLoader color="#4F6C42" loading={true} size={50} />
         </div>
       ) : (
-        <div className="container mx-auto my-8 p-8 max-w-screen-xl rounded-lg shadow-2xl">
+        <div className="container max-w-screen-xl p-8 mx-auto my-8 rounded-lg shadow-2xl">
           <DataTable
             title="Users"
             columns={columns}
@@ -88,7 +88,7 @@ export default function () {
             pagination
             highlightOnHover
             pointerOnHover
-            onRowClicked={(row) => navigate(`${row._id}`)}
+            onRowClicked={(row) => navigate(`user/${row._id}`)}
           />
         </div>
       )}
