@@ -27,7 +27,7 @@ export default function () {
           <RingLoader color="#4F6C42" loading={true} size={50} />
         </div>
       ) : (
-        <main className="grid items-center justify-center h-full grid-flow-col pt-24 gap-x-10">
+        <main className="grid items-center justify-center h-screen grid-flow-col gap-x-10">
           <div
             key={_id}
             className="p-6 rounded-md shadow-md bg-dark-default text-light-default dark:bg-light-default dark:text-dark-default w-96"

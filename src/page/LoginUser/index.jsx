@@ -40,11 +40,11 @@ export default function () {
   return (
     <>
       {isLoading ? (
-        <div className="flex items-center justify-center h-full pt-24">
+        <div className="flex items-center justify-center h-screen">
           <RingLoader color="#4F6C42" loading={true} size={50} />
         </div>
       ) : (
-        <main className="flex items-center justify-center h-full pt-24">
+        <main className="flex items-center justify-center h-screen">
           <form
             onSubmit={formik.handleSubmit}
             className="px-8 pt-6 pb-8 mb-4 bg-white rounded shadow-md"

@@ -49,7 +49,7 @@ export default function () {
   const handleClickShowPassword = () => setShowPassword(!showPassword);
 
   return (
-    <div className="flex items-center justify-center min-h-full">
+    <div className="flex items-center justify-center min-h-screen">
       {isLoading ? (
         <div className="loader">
           <RingLoader color="#4F6C42" loading={true} size={50} />

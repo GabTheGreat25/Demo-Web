@@ -49,14 +49,14 @@ export default function () {
   const handleClickShowPassword = () => setShowPassword(!showPassword);
 
   return (
-    <div className="flex items-center justify-center min-h-full">
+    <div className="flex items-center justify-center min-h-screen">
       {isLoading ? (
         <div className="loader">
           <RingLoader color="#4F6C42" loading={true} size={50} />
         </div>
       ) : (
         <>
-          <div className="w-full max-w-md p-8 mb-4 rounded shadow-xl bg-dark-default dark:bg-light-default">
+          <div className="w-full max-w-md p-8 rounded shadow-xl bg-dark-default dark:bg-light-default">
             <form onSubmit={formik.handleSubmit} encType="multipart/form-data">
               <section className="grid items-center justify-center">
                 <div>

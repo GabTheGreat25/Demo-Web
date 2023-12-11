@@ -12,7 +12,7 @@ const AdminLayout = () => {
       <div>
         <Outlet />
       </div>
-      <span className="fixed bottom-0 w-full">
+      <span>
         <Footer />
       </span>
     </main>

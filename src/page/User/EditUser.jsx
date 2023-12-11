@@ -55,7 +55,7 @@ export default function () {
         </div>
       ) : (
         <>
-          <main className="grid items-center justify-center h-full pt-24">
+          <main className="grid items-center justify-center h-screen">
             <form onSubmit={formik.handleSubmit} encType="multipart/form-data">
               <section className="grid items-center justify-center text-center">
                 <div>

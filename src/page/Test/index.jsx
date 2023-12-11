@@ -77,7 +77,7 @@ export default function TestsList() {
   ];
 
   return (
-    <div className="container h-full max-w-screen-xl p-8 mx-auto my-8 rounded-lg shadow-2xl">
+    <div className="container h-screen max-w-screen-xl p-8 mx-auto my-8 rounded-lg shadow-2xl">
       <button
         className="px-4 py-2 text-white bg-blue-500 rounded"
         onClick={() => {

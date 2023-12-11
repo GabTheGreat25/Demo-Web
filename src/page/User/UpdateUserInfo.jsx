@@ -56,7 +56,7 @@ export default function () {
   });
 
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="flex items-center justify-center h-screen">
       {isLoading ? (
         <div className="flex items-center justify-center">
           <RingLoader color="#4F6C42" loading={true} size={50} />

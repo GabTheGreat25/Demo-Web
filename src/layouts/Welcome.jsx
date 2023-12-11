@@ -8,7 +8,7 @@ export default function () {
   const Login = () => navigate("/login");
 
   return (
-    <div className="flex flex-col items-center justify-center h-full pt-24">
+    <div className="flex flex-col items-center justify-center h-screen">
       <img
         src={demoImage}
         alt="Plant Welcome Image"
