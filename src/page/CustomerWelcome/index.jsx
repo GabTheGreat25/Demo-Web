@@ -15,7 +15,7 @@ export default function () {
           <img
             src={demoImage}
             alt="Plant Image"
-            className={"rounded-lg shadow-lg h-1/2 w-1/2"}
+            className={"rounded-lg shadow-lg"}
           />
         </div>
         <p className="mb-4 text-lg">
